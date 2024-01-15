@@ -1,4 +1,4 @@
-#2024_01_15_PythonProject_day02
+#2024_01_15_PythonProject_day2
 while True:
     manu = input("1)Fahrenheit -> Celsius   2) Celsius -> Fahrenheit   3) Quit program :")
     if manu == '3':
@@ -10,4 +10,3 @@ while True:
     elif manu == '2':
         celsius = float(input('Input Celcius : '))
         print(f'Celsius : {celsius}C, Fahrenheit : {((celsius * 9.0 / 5.0) + 32.0):.4f}F')
-
